@@ -1,0 +1,35 @@
+<html>
+  <head>
+		<script src="./jquery-1.10.2.js"></script>
+    <script src="./hanoi.js"></script>
+		<script src="./hanoi_ui.js"></script>
+		<script src="./underscore.js"></script>
+
+		<link href="hanoi.css" rel="stylesheet">
+  </head>
+	<body>
+		<h1>Towers of Hanoi</h1>
+		<div class="board">
+
+			<div class="pile" data-pile-num="0">
+				<div class="diskSmall" data-disk-size="1"></div>
+				<div class="diskMedium" data-disk-size="2"></div>
+				<div class="diskLarge"  data-disk-size="3"></div>
+			</div>
+
+			<div class="pile" data-pile-num="1" >
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+
+			<div class="pile" data-pile-num="2" >
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+
+		</div>
+		<div class= "winner"></div>
+	</body>
+</html>
